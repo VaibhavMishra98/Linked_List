@@ -131,7 +131,7 @@ struct node *addbefore(struct node *head,int num,int num2)
     p=head;
     if(head==NULL)
     {
-        printf("\List is empty");
+        printf("\nList is empty");
         return;
     }
 

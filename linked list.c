@@ -170,6 +170,8 @@ struct node *reverselist(struct node *curr)
     }
     return prev;
 }
+
+//Main Program Starts here.....
 void main()
 {
     struct node *head=NULL;

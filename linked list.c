@@ -6,6 +6,8 @@ struct node
     int data;
     struct node *next;
 };
+
+//Functions.....
 struct node *addatbeg(struct node *head,int x)
 {
     struct node *temp;

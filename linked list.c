@@ -8,7 +8,7 @@ struct node
 };
 
 //Functions.....
-struct node *addatbeg(struct node *head,int x)
+struct node *addatbeg(struct node *head,int x) // Add at the beginning
 {
     struct node *temp;
     temp=(struct node *)malloc(sizeof(struct node));
@@ -160,7 +160,7 @@ struct node *addbefore(struct node *head,int num,int num2)
     }
     printf("\nSorry!!,We couldn't find the number %d",num2);
 }
-struct node *reverselist(struct node *curr)
+struct node *reverselist(struct node *curr) 
 {
     struct node *prev=NULL,*NN=NULL;
     while(curr)

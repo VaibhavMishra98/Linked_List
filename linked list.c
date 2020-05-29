@@ -211,8 +211,8 @@ void main()
             {
                 printf("\nEnter the value to be inserted->");
                 scanf("%d",&num);
-                addatend(head,num);
-                break;
+                addatend(head,num); // To add a value at end of list
+                 break;
             }
         case 4:
             {

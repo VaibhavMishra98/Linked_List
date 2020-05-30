@@ -36,7 +36,7 @@ void display(struct node *head)
     printf("\n");
     }
 }
-void addatend(struct node *head,int x)
+void addatend(struct node *head,int x)  // Add at the end
 {
     struct node *p,*temp;
     temp=(struct node *)malloc(sizeof(struct node *));
@@ -211,7 +211,7 @@ void main()
             {
                 printf("\nEnter the value to be inserted->");
                 scanf("%d",&num);
-                addatend(head,num); // To add a value at end of list
+                addatend(head,num);
                  break;
             }
         case 4:

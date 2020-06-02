@@ -47,6 +47,7 @@ void addatend(struct node *head,int x)  // Add at the end
     p->next=temp;
     temp->next=NULL;
 }
+//Function to delete a node
 struct node *del(struct node *head,int num)
 {
     struct node *p, *temp;

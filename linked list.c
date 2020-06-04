@@ -17,7 +17,7 @@ struct node *addatbeg(struct node *head,int x) // Add at the beginning
     head=temp;
     return head;
 }
-void display(struct node *head)
+void display(struct node *head) // Display the list
 {
     struct node *p;
     p=head;

@@ -91,6 +91,7 @@ void searchnum(struct node *head,int num)
     printf("\nThe number is at position %dth",count);
 
 }
+//Function to count number of nodes
 void counter(struct node *head)
 {
     struct node *p;

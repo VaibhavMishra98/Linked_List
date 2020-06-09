@@ -78,6 +78,7 @@ struct node *del(struct node *head,int num)
     printf("\n The number is not present in the list\n");
     return head;
 }
+//Function to search a number
 void searchnum(struct node *head,int num)
 {
     struct node *p;

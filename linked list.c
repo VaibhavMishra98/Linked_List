@@ -110,7 +110,7 @@ void counter(struct node *head)
     }
     printf("\nThe number of nodes are=%d",count);
 }
-void addafter(struct node *head,int num,int num2)
+void addafter(struct node *head,int num,int num2) // Add after a number....
 {
     struct node *p,*temp;
     p=head;

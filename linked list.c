@@ -163,6 +163,7 @@ struct node *addbefore(struct node *head,int num,int num2)
     }
     printf("\nSorry!!,We couldn't find the number %d",num2);
 }
+//Function to reverse list
 struct node *reverselist(struct node *curr) 
 {
     struct node *prev=NULL,*NN=NULL;

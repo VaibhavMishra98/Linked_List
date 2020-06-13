@@ -1,5 +1,5 @@
 # Linked_List
-Learn to perform following operations in linked list.
+Learn to perform following operations in linked list:
 
        1.Display                                      
        2.Add node to empty list/add at beginning      
@@ -12,4 +12,4 @@ Learn to perform following operations in linked list.
        9.Reverse List                                 
        10.exit
 
-       THANK YOU!!
+       THANK YOU!

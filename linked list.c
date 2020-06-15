@@ -129,6 +129,7 @@ void addafter(struct node *head,int num,int num2) // Add after a number....
     printf("\nSorry!!,We couldn't find the number %d",num2);
 
 }
+//Add before a number
 struct node *addbefore(struct node *head,int num,int num2)
 {
     struct node *p,*temp;
